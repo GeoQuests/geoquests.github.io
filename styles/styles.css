@@ -1,0 +1,124 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-color: #4eb86d;
+	color: #ffffff;
+	font-family: "Helvetica", sans-serif;
+	font-weight: lighter;
+}
+
+.wrapper {
+	width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 50px;
+}
+
+.wrapper .hr {
+	height: 2px;
+	width: 800px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 65px;
+	/* margin-bottom: 32px; */
+	background-color: #ffffff;
+}
+
+.wrapper .hr h1 {
+	font-size: 27px;
+	font-weight: lighter;
+	top: -0.6em;
+	position: relative;
+	background-color: #4eb86d;
+	width: 140px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
+.wrapper .billboard {
+	width: 1000px;
+}
+
+.wrapper .billboard .map {
+	width: inherit;
+	min-height: 500px;
+	display: block;
+	position: relative;
+}
+
+.wrapper .billboard .map::after {
+	content: "";
+	background: url('../images/treasure_map.svg') no-repeat center;
+	background-size: 300px 300px;
+	opacity: 0.3;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	position: absolute;
+	z-index: -1;
+}
+
+.wrapper .billboard .map .name h1 {
+	text-align: center;
+	font-size: 5.2em;
+	font-weight: normal;
+	padding-top: 200px;
+}
+
+.wrapper .billboard .description {
+	text-align: center;
+	margin-top: -85px;
+}
+
+.wrapper .billboard .description p {
+	font-size: 23px;
+}
+
+.wrapper .feature {
+	width: 800px;
+	margin-top: 45px;
+	margin-left: auto;
+	margin-right: auto;
+	min-height: 265px;
+}
+
+.wrapper .feature h1.hook {
+	font-weight: normal;
+	font-size: 30px;
+	padding: 0 0 5px 0;
+}
+
+.wrapper .feature p.description {
+	font-weight: lighter;
+	font-size: 20px;
+	margin-bottom: 5px;
+}
+
+.wrapper .feature .left-image {
+	float: left;
+	width: 40%;
+	text-align: left;
+}
+
+.wrapper .feature .left-text {
+	float: left;
+	width: 60%;
+	text-align: left;
+}
+
+.wrapper .feature .right-image {
+	margin-left: 60%;
+	width: 40%;
+	text-align: right;
+}
+
+.wrapper .feature .right-text {
+	margin-left: 40%;
+	width: 60%;
+	text-align: right;
+}
