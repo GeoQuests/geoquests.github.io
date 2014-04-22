@@ -4,14 +4,12 @@
 }
 
 body {
-	background-color: #4eb86d;
-	color: #ffffff;
+	color: #494949;
 	font-family: "Helvetica", sans-serif;
 	font-weight: lighter;
 }
 
 .wrapper {
-	width: 1000px;
 	margin-left: auto;
 	margin-right: auto;
 	margin-bottom: 75px;
@@ -39,43 +37,68 @@ body {
 }
 
 .wrapper .billboard {
-		width: 1000px;
+	width: 100%;
+	height: 100%;
+	background-color: #4eb86d;
+	display: table;
+}
+
+.wrapper .billboard:before {
+	content: '';
+	display: inline-block;
+	margin-left: auto;
+	margin-right: auto;
+	height: 100%; 
+	vertical-align: middle;
 }
 
 .wrapper .billboard .map {
 	width: inherit;
-	min-height: 500px;
-	display: block;
-	position: relative;
+	display: inline-block;
+	vertical-align: middle;
 }
 
-.wrapper .billboard .map::after {
-	content: "";
-	background: url('../images/treasure_map.svg') no-repeat center;
-	background-size: 300px 300px;
-	opacity: 0.3;
-	top: 0;
-	left: 0;
-	bottom: 0;
-	right: 0;
-	position: absolute;
-	z-index: -1;
+.wrapper .billboard .map img {
+	width: 40%;
+	display: table-cell;
+	margin: auto;
 }
 
-.wrapper .billboard .map .name h1 {
+.wrapper .billboard .map .name {
 	text-align: center;
-	font-size: 5.2em;
+	font-size: 80em;
 	font-weight: normal;
-	padding-top: 200px;
 }
 
 .wrapper .billboard .description {
 	text-align: center;
-	margin-top: -85px;
+	font-size: 80%;
 }
 
 .wrapper .billboard .description p {
 	font-size: 23px;
+}
+
+.wrapper .row  {
+	width: 80%;
+	margin: auto;
+}
+
+.wrapper .first {
+	margin-top: 30px;
+}
+
+.wrapper .row .col-sm-3 {
+	padding: 40px 0;
+}
+
+.wrapper .row .col-sm-3 .text {
+	padding: 5px;
+	font-size: 22px;
+}
+
+.wrapper .gray {
+	background-color: #F6F6F6;
 }
 
 .wrapper .feature {
@@ -86,37 +109,38 @@ body {
 	min-height: 265px;
 }
 
-.wrapper .feature h1.hook {
+.wrapper .row .col-md-6 h1.hook {
+	color: #000;
 	font-weight: normal;
 	font-size: 30px;
 	padding: 0 0 5px 0;
 }
 
-.wrapper .feature p.description {
+.wrapper .row .col-md-6 p.description {
 	font-weight: lighter;
 	font-size: 20px;
 	margin-bottom: 5px;
 }
 
-.wrapper .feature .left-image {
+.wrapper .row .col-md-6 .left-image {
 	float: left;
 	width: 40%;
 	text-align: left;
 }
 
-.wrapper .feature .left-text {
+.wrapper .row .col-md-6 .left-text {
 	float: left;
 	width: 60%;
 	text-align: left;
 }
 
-.wrapper .feature .right-image {
+.wrapper .row .col-md-6 .right-image {
 	margin-left: 60%;
 	width: 40%;
 	text-align: right;
 }
 
-.wrapper .feature .right-text {
+.wrapper .row .col-md-6 .right-text {
 	margin-left: 40%;
 	width: 60%;
 	text-align: right;

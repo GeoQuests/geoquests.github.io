@@ -1,6 +1,7 @@
 <html>
 	<head>
 		<title>GeoQuests</title>
+		<link rel='stylesheet' type='text/css' href='http://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css' />
 		<link rel='stylesheet' type='text/css' href='styles/styles.css' />
 		<link rel='shortcut icon' href='/favicon.ico' type='image/x-icon'>
 		<link rel='icon' href='/favicon.ico' type='image/x-icon'>
@@ -9,117 +10,156 @@
 		<div class='wrapper'>
 			<div class='billboard'>
 				<div class='map'>
-					<div class='name'>
-						<h1>GeoQuests</h1>
+					<img src='images/logo.svg'>
+				</div>
+			</div>
+
+			<div class='row first'>
+				<div class='col-sm-3 col-md-3'>
+					<div class='left-image'>
+						<img src='images/earth.svg' width='90%'>
 					</div>
 				</div>
-				<div class='description'>
-					<p>GeoQuests is a new real life, non-virtual <br/ > multiplayer scavenger hunt and geocaching game. <br /> Because we know that playing with your friends online is <br /> fun, but playing with them in person is better.</p>
+				<div class='col-sm-3 col-md-3'>
+					<div class='text'>
+						<h1 class='hook'>Play anywhere.</h1>
+						<p class='description'>Because all quests are created by users, 
+						for users, you may be invited to quests
+						spanning your campus, city or even country!
+						If you haven't been invited to any quests in
+						your area, you can always create on and 
+						invite your friends!</p>
+					</div>
+				</div>
+				
+				<div class='col-sm-3 col-md-3'>
+					<div class='left-image'>
+						<img src='images/racers.svg' width='90%'>
+					</div>
+				</div>
+				<div class='col-sm-3 col-md-3'>
+					<div class='text'>
+						<h1 class='hook'>Race against friends.</h1>
+						<p class='description'>GeoQuest is a fun and social game, but
+						first and foremost, it's a race.  Play against 
+						other invitees and your friends in the quest
+						to reach the final destination.  Whoever 
+						gets there first wins, it's that simple.</p>
+					</div>
 				</div>
 			</div>
-			<div class='hr'>
-				<h1 style='width: 140px;'>Gameplay</h1>
-			</div>
-			<div class='feature'>
-				<div class='left-image'>
-					<img src='images/earth.svg' width='90%'>
+			<div class='row'>
+				<div class='col-sm-3 col-md-3'>
+					<div class='left-image'>
+						<img src='images/speech_bubbles.svg' width='90%'>
+					</div>
 				</div>
-				<div class='right-text' style='padding-top: 80px;'>
-					<h1 class='hook'>Play anywhere in the world.</h1>
-					<p class='description'>Because all quests are created by users, 
-					for users, you may be invited to quests
-					spanning your campus, city or even country!
-					If you haven't been invited to any quests in
-					your area, you can always create on and 
-					invite your friends!</p>
+				<div class='col-sm-3 col-md-3'>
+					<div class='text'>
+						<h1 class='hook'>Work with others.</h1>
+						<p class='description'>Throughout the quest work with your friends
+						or the other participants to figure out clues
+						and brag about success, of course.  However,
+						remember that in the end it's a race, so don't
+						give too much away to the competition!</p>
+					</div>
 				</div>
-			</div>
-			<div class='feature'>
-				<div class='left-text' style='padding-top: 50px;'>
-					<h1 class='hook'>Race against your friends.</h1>
-					<p class='description'>GeoQuest is a fun and social game, but
-					first and foremost, it's a race.  Play against 
-					other invitees and your friends in the quest
-					to reach the final destination.  Whoever 
-					gets there first wins, it's that simple.</p>
+				
+				<div class='col-sm-3 col-md-3'>
+					<div class='left-image'>
+						<img src='images/puzzle.svg' width='90%'>
+					</div>
 				</div>
-				<div class='right-image'>
-					<img src='images/racers.svg' width='90%'>
-				</div>
-			</div>
-			<div class='feature'>
-				<div class='left-image'>
-					<img src='images/speech_bubbles.svg' width='90%'>
-				</div>
-				<div class='right-text' style='padding-top: 60px;'>
-					<h1 class='hook'>Work with others on the quest.</h1>
-					<p class='description'>Throughout the quest work with your friends
-					or the other participants to figure out clues
-					and brag about success, of course.  However,
-					remember that in the end it's a race, so don't
-					give too much away to the competition!</p>
+				<div class='col-sm-3 col-md-3'>
+					<div class='text'>
+						<h1 class='hook'>Fit the pieces together.</h1>
+						<p class='description'>If you're playing with solely friends, the
+						creator of the quest may have created
+						personalized clues, so you'll have to use
+						any information on them you can find.  If
+						you're playing with strangers, the clues 
+						are going to be more objective so don't be 
+						afraid to look things up!</p>
+					</div>
 				</div>
 			</div>
-			<div class='feature'>
-				<div class='left-text' style='padding-top: 60px;'>
-					<h1 class='hook'>Use anything at your disposal.</h1>
-					<p class='description'>If you're playing with solely friends, the
-					creator of the quest may have created
-					personalized clues, so you'll have to use
-					any information on them you can find.  If
-					you're playing with strangers, the clues 
-					are going to be more objective so don't be 
-					afraid to look things up!</p>
+			
+			<!-- <h1 style='text-align: center; margin: 20px;'>Tips for Quest Making</h1> -->
+			
+			<div class='gray'> 			
+				<div class='row'>
+					<div class='col-sm-3 col-md-3'>
+						<div class='left-image'>
+							<img src='images/clue_cards.svg' width='90%'>
+						</div>
+					</div>
+					<div class='col-sm-3 col-md-3'>
+						<div class='text'>
+							<h1 class='hook'>Writing good clues.</h1>
+							<p class='description'>When writing your first and all clues for a quest 
+							keep in mind who your target audience is.  If you 
+							plan to create a game in your area where anyone
+							can play, keep your clues objective and factual.
+							If you're playing with friends, you can use personal
+							information to see who knows you the best!</p>
+						</div>
+					</div>
+				
+					<div class='col-sm-3 col-md-3'>
+						<div class='right-image'>
+							<img src='images/location_mark.svg' width='90%'>
+						</div>
+					</div>
+					<div class='col-sm-3 col-md-3'>
+						<div class='text'>
+							<h1 class='hook'>Know your location.</h1>
+							<p class='description'>Keep in mind the location of your quest while creating
+							one.  It is easy to get &quot;pin happy&quot; and create a lot
+							of clues and add many locations.  If you're playing
+							in an urban area with public transportation, you can
+							possibly spread out your clues a bit more.  Otherwise,
+							you may want to keep the locations more centrailzed,
+							while making the clues a bit harder to solve.</p>
+						</div>
+					</div>
 				</div>
-				<div class='right-image'>
-					<img src='images/clue_cards.svg' width='90%'>
-				</div>
-			</div>
-			<div class='hr'>
-				<h1 style='width: 290px;'>Tips for Quest Making</h1>
-			</div>
-			<div class='feature'>
-				<div class='left-image'>
-					<img src='images/writing.svg' width='90%'>
-				</div>
-				<div class='right-text' style='padding-top: 70px;'>
-					<h1 class='hook'>Writing good clues for a quest.</h1>
-					<p class='description'>When writing your first and all clues for a quest 
-					keep in mind who your target audience is.  If you 
-					plan to create a game in your area where anyone
-					can play, keep your clues objective and factual.
-					If you're playing with friends, you can use personal
-					information to see who knows you the best!</p>
-				</div>
-			</div>
-			<div class='feature'>
-				<div class='left-text' style='padding-top: 60px;'>
-					<h1 class='hook'>Know the location of your quest.</h1>
-					<p class='description'>Keep in mind the location of your quest while creating
-					one.  It is easy to get &quot;pin happy&quot; and create a lot
-					of clues and add many locations.  If you're playing
-					in an urban area with public transportation, you can
-					possibly spread out your clues a bit more.  Otherwise,
-					you may want to keep the locations more centrailzed,
-					while making the clues a bit harder to solve.</p>
-				</div>
-				<div class='right-image'>
-					<img src='images/location_mark.svg' width='90%'>
-				</div>
-			</div>
-			<div class='feature'>
-				<div class='left-image'>
-					<img src='images/trophy.svg' width='90%'>
-				</div>
-				<div class='right-text' style='padding-top: 60px;'>
-					<h1 class='hook'>Provide incentive to your friends.</h1>
-					<p class='description'>Obviously it's fun to play with your friends in a 
-					racing environment, however, providing incentive
-					to your friends is a great way to up the participation
-					rate.  It's also a great way to add fun to a treasure
-					hunt type GeoQuest.  If you're planning a birthday
-					hunt, try also adding rewards at each checkpoint,
-					for extra fun!</p>
+				
+				<div class='row'>
+					<div class='col-sm-3 col-md-3'>
+						<div class='left-image'>
+							<img src='images/food.svg' width='90%'>
+						</div>
+					</div>
+					<div class='col-sm-3 col-md-3'>
+						<div class='text'>
+							<h1 class='hook'>Provide incentive.</h1>
+							<p class='description'>Obviously it's fun to play with your friends in a 
+							racing environment, however, providing incentive
+							to your friends is a great way to up the participation
+							rate.  It's also a great way to add fun to a treasure
+							hunt type GeoQuest.  If you're planning a birthday
+							hunt, try also adding rewards at each checkpoint,
+							for extra fun!</p>
+						</div>
+					</div>
+
+					<div class='col-sm-3 col-md-3'>
+						<div class='left-image'>
+							<img src='images/weather.svg' width='90%'>
+						</div>
+					</div>
+					<div class='col-sm-3 col-md-3'>
+						<div class='text'>
+							<h1 class='hook'>Watch the weather.</h1>
+							<p class='description'>Obviously it's fun to play with your friends in a 
+							racing environment, however, providing incentive
+							to your friends is a great way to up the participation
+							rate.  It's also a great way to add fun to a treasure
+							hunt type GeoQuest.  If you're planning a birthday
+							hunt, try also adding rewards at each checkpoint,
+							for extra fun!</p>
+						</div>
+					</div>
 				</div>
 			</div>
 		</div>
